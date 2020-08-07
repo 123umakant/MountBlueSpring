@@ -1,6 +1,9 @@
 package com.example.demo;
 
-public class BubbleSortAlgorithm implements sortAlgorithm{
+import org.springframework.stereotype.Component;
+
+@Component
+public class BubbleSortAlgorithm implements sortAlgorithm {
 
 	public int[] bubbleSort(int[] arr) {
 
