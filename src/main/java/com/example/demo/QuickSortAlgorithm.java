@@ -1,8 +1,11 @@
 package com.example.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class QuickSortAlgorithm implements sortAlgorithm{
 
-	public int[] quickSort(int[] arr) {
+	public int[] quickSort(int[] arr) { 	
 
 		return arr;
 	}
