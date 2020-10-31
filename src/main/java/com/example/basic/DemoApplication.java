@@ -17,7 +17,7 @@ public class DemoApplication {
 
 		BinarySearchImpl binarySearchImpl = context.getBean(BinarySearchImpl.class);
 		int result = binarySearchImpl.binarySearch(new int[] { 1, 5, 7, 9, 3 }, 3);
-	
+		System.out.println(result == 0);
 		System.out.println(result);
 
 	}
